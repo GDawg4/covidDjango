@@ -103,7 +103,7 @@ DATABASES = {
         'ENGINE': 'django.db.backends.postgresql',
         'NAME': 'covid19Estudiantes',
         'USER': 'postgres',
-        'PASSWORD': '2x4x6x8x10',
+        'PASSWORD': 'PASSWORDHERE',
         'HOST': 'localhost',
         'PORT': '5432'
     }
