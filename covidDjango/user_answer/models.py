@@ -2,7 +2,7 @@ from django.db import models
 
 # Create your models here.
 class UserAnswer(models.Model):
-    id = models.BigIntegerField(primary_key=True)
+    id = models.BigIntegerField(primary_key=True, auto_created=True)
     description = models.CharField(max_length=255, blank=True, null=True)
     report_date = models.DateTimeField(blank=True, null=True)
     id_answer = models.ForeignKey('answers.Answers', models.DO_NOTHING, db_column='id_answer')
