@@ -9,3 +9,6 @@ class QuestionType(models.Model):
     class Meta:
         managed = False
         db_table = 'question_type'
+
+    def __str__(self):
+        return '{}'.format(self.description)

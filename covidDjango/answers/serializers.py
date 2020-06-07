@@ -7,5 +7,7 @@ class AnswerSerializers(serializers.ModelSerializer):
         model = Answers
         fields = (
             'id',
-            'description'
+            'code',
+            'description',
+            'id_father'
         )

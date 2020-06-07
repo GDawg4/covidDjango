@@ -11,3 +11,6 @@ class Sections(models.Model):
     class Meta:
         managed = False
         db_table = 'sections'
+
+    def __str__(self):
+        return '{}'.format(self.description)

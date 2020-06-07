@@ -48,6 +48,7 @@ INSTALLED_APPS = [
     'questionnaire_type.apps.QuestionnaireTypeConfig',
     'questions.apps.QuestionsConfig',
     'questions_answer_set.apps.QuestionsAnswerSetConfig',
+    'reports.apps.ReportsConfig',
     'search.apps.SearchConfig',
     'sections.apps.SectionsConfig',
     'user_answer.apps.UserAnswerConfig',
@@ -105,8 +106,8 @@ DATABASES = {
         'ENGINE': 'django.db.backends.postgresql',
         'NAME': 'covid19Estudiantes',
         'USER': 'postgres',
-        'PASSWORD': '2x4x6x8x10',
-        'HOST': 'localhost',
+        'PASSWORD': 'k0v1d19-db',
+        'HOST': '192.99.223.69',
         'PORT': '5432'
     }
 }

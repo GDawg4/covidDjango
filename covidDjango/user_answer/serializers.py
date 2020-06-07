@@ -12,5 +12,6 @@ class UserAnswerSerializer(serializers.ModelSerializer):
         model = UserAnswer
         fields = (
             'id_questions',
-            'id_answer'
+            'id_answer',
+            'description'
         )

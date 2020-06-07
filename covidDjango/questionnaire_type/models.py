@@ -1,5 +1,6 @@
 from django.db import models
 
+
 # Create your models here.
 class QuestionnaireType(models.Model):
     id = models.BigIntegerField(primary_key=True)
